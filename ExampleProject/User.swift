@@ -12,7 +12,7 @@ protocol PresentableData {
   var forename: String { get }
   var surname: String { get }
   var email: String { get }
-  var profileImage: UIImage { get }
+  var profileImage: UIImage? { get }
   var alertText: String { get }
 }
 
